@@ -38,4 +38,37 @@ function firstN(input , n){
     return input.slice(0,(n))
 }
 
- // 4) 
+ // 4) function to get the last n elements of an array.
+
+ function LastN(input , n){
+
+    if(n==null){
+        return input.slice(-1)
+    }
+
+    if(n<0){
+        input = [];
+        return input;
+    }
+
+    return input.slice((n+1))
+}
+
+// 5 program to join all elements of an array into a string. 
+
+function join(input,seperator){
+        if (seperator === null)
+        {
+            input.join(',')
+            return input
+        }
+    
+        else{
+            return input.join(seperator)
+        }
+        
+
+}
+
+
+//6 program which accept a number as input and insert dashes (-) between each two even numbers.
