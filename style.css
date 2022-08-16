@@ -1,5 +1,5 @@
 header{
-    background-color: #1C3879;
+    background-color: #3468e4;
     color: aliceblue;
     margin:0px;
     height: 50px;
@@ -28,6 +28,9 @@ body{
 button{
     padding: 15px 20px;
     font-size: 10pxs;
+    border: 1px solid #3468e4;
+    border-radius: 10px;
+    background-color: white;
 }
 
 .one{
@@ -44,4 +47,9 @@ button{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+
+button:hover{
+    background-color: #3468e4;
+    color: white;
 }

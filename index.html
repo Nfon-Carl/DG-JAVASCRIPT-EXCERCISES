@@ -12,28 +12,38 @@
     <header>
     <p class="firsttext">JavaScript Exercises</p>
 </header>
-    <p class="one">DOM Excercise 1 </p>
+        <!-- Ex 1 -->
+    <p class="three">Excercise 1 </p>
+
+    <p class="three" id ='text'>JavaScript Exercises - w3resource</p>
 
     <div class="btn">
-        <button id="jsstyle" onclick="js_style()">Style</button>
+        <button id="jsstyle">Style</button>
     </div>
+<hr>
 
-    <p class="two">DOM Excercise 2</p>
+<!-- ex 2 -->
+    <p class="three">Excercise 2</p>
     <div class="form">
         <form id="form1" onsubmit="getFormvalue()">
             First name: <input type="text" name="fname" value="David"><br>
             Last name: <input type="text" name="lname" value="Beckham"><br>
-            <input type="submit" value="Submit">
+            <input type="submit" id="submitbtn" value="Submit">
             </form>
             
     </div>
-
+<hr>
     <!-- ex 3 -->
+
     <p class="three">DOM excercise 3</p>
     <div>
         <p class="text3">Text whose Background Color will be Changed</p>
-    </div>
+        <div class="btn">
+            <button id="">Change BG color</button>
+        </div>
 
+    </div>
+<hr>
         <!-- ex 4 -->
 
         <p class="three">DOM Excercise 4</p>
@@ -43,6 +53,72 @@
                 <button onclick="getAttributes()">Click here to get attributes value</button>
                 
         </div>
+<hr>
+        <!-- ex 5 -->
+        <p class="three">Excercise 5</p>
+        <div>
+            <table id="sampleTable" border="1">
+                <tr><td>Row1 cell1</td>
+                <td>Row1 cell2</td></tr>
+                <tr><td>Row2 cell1</td>
+                <td>Row2 cell2</td></tr>
+                </table><br>
+                <input type="button" onclick="insert_Row()" value="Insert row">
+        </div>
+<hr>
+        <!-- ex 6 -->
+        <p class="three">Excercise 6</p>
+        <div>
+            <table id="myTable" border="1">
+                <tr><td>Row1 cell1</td>
+                <td>Row1 cell2</td></tr>
+                <tr><td>Row2 cell1</td>
+                <td>Row2 cell2</td></tr>
+                <tr><td>Row3 cell1</td>
+                <td>Row3 cell2</td></tr>
+                </table><form>
+                <input type="button" onclick="changeContent()" value="Change content">
+        </div>
+<hr>
+        <!-- ex 7 -->
+        <p class="three">Excercise 7</p>
+        <div>
+            <table id="myTable" border="1">
+            </table><form>
+            <input type="button" onclick="createTable()" value="Create the table">
+            </form>
+        </div>
+<hr>
+        <!-- ex 8 -->
+        <p class="three">Excersise 8</p>
+        <div>
+            <form>
+                <select id="colorSelect">
+                <option>Red</option>
+                <option>Green</option>
+                <option>White</option>
+                <option>Black</option>
+                </select>
+                <input type="button" onclick="removecolor()" value="Select and Remove">
+                </form>
+        </div>
+<hr>
+        <!-- Ex 9 -->
+        <p class="three">Excercise 9</p>
+        <div>
+            <form>
+                Select your favorite Color :
+                <select id="mySelect">
+                <option>Red</option>
+                <option>Green</option>
+                <option>Blue</option>
+                <option>White</option>
+                </select>
+                <input type="button" onclick="getOptions()" value="Count and Output all items">
+                </form>
+                
+        </div>
+
     <script src="/DomExcercises.js"></script>
     <script src="/ArrayExercise.js"></script>
 </body>
