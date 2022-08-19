@@ -74,7 +74,7 @@ function join(input,seperator){
 //6 program which accept a number as input and insert dashes (-) between each two even numbers.
 
 function dashInsert(num){
-    
+
 const str = num.toString();
 const result = [str[0]];
   
@@ -90,4 +90,12 @@ for(let x=1; x<str.length; x++)
      }
   }
 console.log(result.join(''));
-}
+} n
+
+// 7) Function to Sort Numbers in an Array
+
+
+
+
+
+//8 
