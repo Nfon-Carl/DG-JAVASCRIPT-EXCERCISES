@@ -73,3 +73,18 @@ function ex3_style(ex3State) {
       text3.style.color = "black";
     }
   }
+
+
+
+
+
+/*
+     other methods of defonong functions
+   const greet = ()=>{
+
+  }
+     spread operator
+     map
+
+     Smart goals
+  */
